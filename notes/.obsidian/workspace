@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "e6581e61a199cd4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d18b0a9100eca8e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MasterProject/clips_app/README.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0a33313e52d0916",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a71480fa8c49bec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eddd681e8200f583",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "03a224d35f135a2e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d272429f34225d92",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e48a919e7a90182",
+    "type": "split",
+    "children": [
+      {
+        "id": "44eca8f53680f2e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7676e2cb6a2a274c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MasterProject/clips_app/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f585ae94dd1cd824",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MasterProject/clips_app/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dcb45a3285dd6302",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d85f139496bc059",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MasterProject/clips_app/README.md"
+              }
+            }
+          },
+          {
+            "id": "a4da03b0a906510b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "d13379009b0af01b",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3d18b0a9100eca8e",
+  "lastOpenFiles": [
+    "Readme.pdf",
+    "session 9 Rxjs/Rxjs/Readme.md",
+    "session 4 component Fudamentals/Readme.md",
+    "session -2 Bootstrapping Angular/Readme.md"
+  ]
+}
