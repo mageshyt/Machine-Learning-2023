@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2f6b618044026a73",
+        "id": "c71e668dcaa6c955",
         "type": "tabs",
         "children": [
           {
-            "id": "1182965df643bdec",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "19296c31a6d253c6",
+            "id": "d5baf81da496bf62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Scikit Learn.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cross",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -167,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,25 +173,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19296c31a6d253c6",
+  "active": "d5baf81da496bf62",
   "lastOpenFiles": [
-    "images/Pasted image 20230519130245.png",
+    "images/Pasted image 20230521195131.png",
+    "images/Pasted image 20230521195102.png",
+    "images/Pasted image 20230521194618.png",
+    "images/sklearn-cross-validation 1.png",
+    "images/sklearn-cross-validation.png",
+    "images/sklearn-cross-validation.png\".md",
+    "Scikit Learn.md",
+    "images/sklearn-train-valid-test-sets.png",
+    "images/sklearn-train-valid-test-annotated.png",
+    "images/sklearn-ml-map-cheatsheet-heart-disease-linear-svc.png",
+    "images/sklearn-ml-map-cheatsheet-boston-housing-ridge.png",
+    "images/sklearn-intro-jupyter-notebook-header.png",
+    "images/sklearn-ml-map.png",
+    "2023-05-21.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "ML & Datascience.md",
     "Machine learning 101.md",
-    "Scikit Learn.md",
-    "images/Pasted image 20230519075346.png",
-    "images/Pasted image 20230511114534.png",
-    "Pasted image 20230511113719.png",
-    "images/Pasted image 20230511113807.png",
-    "images/Pasted image 20230511113659.png",
     "Section -2.md",
     "ML and Data scine FrameWork.md",
-    "images/Pasted image 20230511103421.png",
     "2023-05-11.md",
-    "images/Noraml vs ML.png",
-    "images/ML Pattern.png",
-    "images/ML divisions.png",
-    "images/Modal Train.png",
     "images",
     "setter and getters function.md",
     "notes.md",
