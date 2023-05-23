@@ -332,3 +332,4 @@ In the meantime, there are some things to note.
 **Data collection and model deployment are the longest parts of a machine learning pipeline.** This article has only focused on modelling. And even then, it misses specifics on how to get your data ready to be modelled (other sections in this repo cover that).
 
 **Tools of the trade vary. Machine learning is big tool comprised of many other tools.** From code libraries and frameworks to different deployment architectures. There’s usually several different ways to do the same thing. Best practice is continually being changed. This article focuses on things which don’t.
+![[Drawing 2023-05-23 14.35.56.excalidraw]]

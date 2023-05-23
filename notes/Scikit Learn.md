@@ -259,3 +259,167 @@ Out[17]:
 
 ![[Pasted image 20230521195102.png]]
 this is really best practice because we test data from different split 
+
+## 4.2.1 Classification model evaluation metrics
+
+1. Accuracy
+2. Area under ROC curve
+3. Confusion matrix
+4. Classification report
+
+### Area under the ROC curce
+**Area under the reciver operation characteristic curve (AUC/ROC)**'
+
+ROC curves are a comparison of a model's true positive rate (tpr) versus a models false positive rate (fpr).
+
+`tpr`=true positive rate = model predicts 1 when truth is 1
+
+`fpr`=false positive rate = model predicts 1 when truth is 0
+
+* `True positive` = model predicts 1 when truth is 1
+* `False positive` = model predicts 1 when truth is 0
+* `True negative` = model predicts 0 when truth is 0
+* `False negative` = model predicts 0 when truth is 1
+
+### Reading Extension: ROC Curve + AUC
+
+When you first encounter them, ROC Curve and AUC (area under curve) metrics can be a little confusing. But not to worry, with a little practice, they'll start to make sense.
+
+In a nutshell, what you should remember is:
+
+-   `ROC` curves and `AUC` metrics are evaluation metrics for binary classification models (a model which predicts one thing or another, such as heart disease or not).
+    
+-   The `ROC` curve compares the true positive rate (tpr) versus the false positive rate (fpr) at different classification thresholds.
+    
+-   The `AUC` metric tells you how well your model is at choosing between classes (for example, how well it is at deciding whether someone has heart disease or not). A perfect model will get an AUC score of 1.
+    
+
+For more information on these metrics, bookmark the following resources and refer to them when you need:
+
+-   [ROC and AUC, Clearly Explained!](https://www.youtube.com/watch?v=4jRBRDbJemM) by StatQuest
+    
+-   [ROC documentation in Scikit-Learn](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html) (contains code examples)
+    
+-   [How the ROC curve and AUC are calculated](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) by Google's Machine Learning team
+### Classification model evaluation metrics
+
+1. R^2 (pronounced r-squared) or coefficient of determination
+
+2. Mean absolute error (MAE)
+
+3. Mean squared error (MSE)
+```py
+from sklearn.model_selection import cross_val_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score
+
+np.random.seed(42)
+
+x=heart_disease.drop("target",axis=1)
+y=heart_disease["target"]
+clf=RandomForestClassifier()
+
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2)
+
+# fit the model
+
+clf.fit(x_train,y_train)
+
+# score
+clf.score(x_test,y_test)
+
+# make predictions
+y_preds=clf.predict(x_test)
+
+print("Classifier metric on the test set")
+print(f"Accuracy:{accuracy_score(y_test,y_preds)*100:.2f}%")
+print(f"Precision:{precision_score(y_test,y_preds)*100:.2f}%")
+print(f"Recall:{recall_score(y_test,y_preds)*100:.2f}%")
+
+print(f"F1:{f1_score(y_test,y_preds)*100:.2f}%")
+
+#Result 
+
+Classifier metric on the test set Accuracy:85.25%
+Precision:84.85%
+Recall:87.50%
+F1:86.15%
+```
+
+## Regression model evaluation metrics
+```py
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error,r2_score,mean_squared_error
+
+np.random.seed(42)
+
+# get the data ready
+x=house_df.drop("target",axis=1)
+y=house_df["target"]
+
+# split into train/test
+
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2)
+
+# fit the model
+
+model=RandomForestRegressor()
+
+model.fit(x_train,y_train)
+
+# predict
+
+y_preds=model.predict(x_test)
+
+# evaluate the model
+
+print(f"mean absolute error:{mean_absolute_error(y_test,y_preds)*100:.2f}")
+print(f"mean squared error:{mean_squared_error(y_test,y_preds)*100:.2f}")
+print(f"r2 score:{r2_score(y_test,y_preds)*100:.2f}")
+
+#Result 
+mean absolute error:32.66
+mean squared error:25.34
+r2 score:80.66
+```
+
+MAE- the average of the absolute differences between predictions and actual values. It gives you an idea of how wrong your model predictions are.
+
+  
+
+MSE- the squred average of the difference between the predictions and actual values. Squaring the errors removes negative errors. It gives you a rough idea of how far your predictions are from the actual values.
+
+
+
+## 5. Imporving a model
+
+first predictions = baseline predictions
+first model = baseline model
+
+
+From a data Perspective:
+* Could we collect more data? (generally, the more data, the better)
+* Could we improve our data?
+
+From a model perspective:
+* Is there a better model we could use?
+* Could we improve the current model?
+
+Hyperparameters vs. Parameters
+
+`Parameters` = model find these patterns in data
+
+`Hyperparameters` = settings on a model you can adjust to (potentially) improve its ability to find patterns
+
+Three ways to adjust `hyperparameters`:
+
+1. By hand
+
+2. Randomly with RandomSearchCV
+
+3. Exhaustively with GridSearchCV
+
+![[sklearn-train-valid-test-annotated.png]]
+
+![[Pasted image 20230523111733.png]]
