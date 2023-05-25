@@ -14,25 +14,39 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.md"
+                "file": "Excalidraw/machine learning notes.md"
               },
               "pinned": true
             }
           },
           {
-            "id": "e26f707b1248d625",
+            "id": "97a66d3270e3cdfd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scikit Learn.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d40c1e95cf9b1ee6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML & Datascience.md",
-                "mode": "source",
+                "file": "Scikit Learn.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML & Datascience.md",
+                "file": "Scikit Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML & Datascience.md",
+                "file": "Scikit Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML & Datascience.md"
+                "file": "Scikit Learn.md"
               }
             }
           },
@@ -186,25 +199,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e26f707b1248d625",
+  "active": "d40c1e95cf9b1ee6",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.md",
-    "Pasted Image 20230523144151_498.png",
-    "Pasted Image 20230523144136_491.png",
-    "ML & Datascience.md",
-    "Pasted Image 20230523143948_448.png",
-    "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.png",
-    "Pasted Image 20230523143656_827.png",
+    "Machine learning 101.md",
     "Scikit Learn.md",
+    "Excalidraw/machine learning notes.md",
+    "ML & Datascience.md",
+    "images/sklearn-confusion-matrix-anatomy.png",
+    "images/sklearn-classification-report.png",
+    "images/sklearn-cross-validation.png",
+    "images/sklearn-cross-validation 1.png",
+    "images/sklearn-docstring.png",
+    "images/sklearn-cross-validation.png\".md",
+    "images/sklearn-hyperparameter-tuning-oven.png",
+    "images/sklearn-ml-map.png",
+    "images/sklearn-ml-map-cheatsheet-boston-housing-ensemble.png",
+    "images/sklearn-ml-map-cheatsheet-boston-housing-ridge.png",
+    "images/sklearn-ml-map-cheatsheet-heart-disease-ensemble.png",
     "Untitled.canvas",
     "Excalidraw",
-    "images/communicating-breaking-the-project-down.png",
-    "images/Pasted image 20230523111733.png",
-    "images/sklearn-train-valid-test-annotated.png",
-    "images/sklearn-train-valid-test-sets.png",
-    "images/sklearn-user-guide.png",
-    "Machine learning 101.md",
-    "images/sklearn-cross-validation.png\".md",
     "2023-05-21.md",
     "Untitled 1.canvas",
     "Section -2.md",

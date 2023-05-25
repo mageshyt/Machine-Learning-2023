@@ -301,6 +301,14 @@ For more information on these metrics, bookmark the following resources and refe
 -   [ROC documentation in Scikit-Learn](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html) (contains code examples)
     
 -   [How the ROC curve and AUC are calculated](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) by Google's Machine Learning team
+
+**Confusion matrix**
+
+A Confusion matrix is a quick way to compare the labels  predicts by the model with the actual labels it was supposed to predict.
+
+In essence, giving you an idea of where the model is getting confused.
+
+![[sklearn-confusion-matrix-anatomy.png]]
 ### Classification model evaluation metrics
 
 1. R^2 (pronounced r-squared) or coefficient of determination
