@@ -32,21 +32,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "d40c1e95cf9b1ee6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scikit Learn.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +187,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d40c1e95cf9b1ee6",
+  "active": "97a66d3270e3cdfd",
   "lastOpenFiles": [
-    "Machine learning 101.md",
+    "Scikit Learn.pdf",
     "Scikit Learn.md",
+    "Machine learning 101.md",
     "Excalidraw/machine learning notes.md",
     "ML & Datascience.md",
     "images/sklearn-confusion-matrix-anatomy.png",

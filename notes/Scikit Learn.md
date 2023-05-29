@@ -1,11 +1,9 @@
 `Refresher` : what is Machine Learning
-	normally we developer write `function` and give `inputs`  to the machine that perform the `task` and give `output`
+normally we developer write `function` and give `inputs` to the machine that perform the `task` and give `output`
 
-   in ML we give `set of inputs` and Machine Write the `function / Model`
-   
+in ML we give `set of inputs` and Machine Write the `function / Model`
 
 # What we're covering in the Scikit-Learn Introduction
-
 
 his notebook outlines the content convered in the Scikit-Learn Introduction.
 
@@ -24,8 +22,8 @@ The recommended steps you take are:
 1.  **Try it** - Since Scikit-Learn has been designed with usability in mind, your first step should be to use what you know and try figure out the answer to your own question (getting it wrong is part of the process). If in doubt, run your code.
 2.  **Press SHIFT+TAB** - See you can the docstring of a function (information on what the function does) by pressing **SHIFT + TAB** inside it. Doing this is a good habit to develop. It'll improve your research skills and give you a better understanding of the library.
 3.  **Search for it** - If trying it on your own doesn't work, since someone else has probably tried to do something similar, try searching for your problem. You'll likely end up in 1 of 2 places:
-    -   [Scikit-Learn documentation/user guide](https://scikit-learn.org/stable/user_guide.html) - the most extensive resource you'll find for Scikit-Learn information.
-    -   [Stack Overflow](https://stackoverflow.com/) - this is the developers Q&A hub, it's full of questions and answers of different problems across a wide range of software development topics and chances are, there's one related to your problem.
+    - [Scikit-Learn documentation/user guide](https://scikit-learn.org/stable/user_guide.html) - the most extensive resource you'll find for Scikit-Learn information.
+    - [Stack Overflow](https://stackoverflow.com/) - this is the developers Q&A hub, it's full of questions and answers of different problems across a wide range of software development topics and chances are, there's one related to your problem.
 
 An example of searching for a Scikit-Learn solution might be:
 
@@ -49,13 +47,12 @@ Let's get started.
 
 some things to note:
 
-* Sklearn refer to machine learning models, algorithm as estimators
-* classification problem - predicting a category (heart disease or not)
-	* Something you'will see `clf` (classifier) used as a classification estimator
- * Regression problem - predicting a number (selling price of a car)
+- Sklearn refer to machine learning models, algorithm as estimators
+- classification problem - predicting a category (heart disease or not)
+  - Something you'will see `clf` (classifier) used as a classification estimator
+- Regression problem - predicting a number (selling price of a car)
 
 ![[Pasted image 20230519130245.png]]
-
 
 # 1. Getting the data ready
 
@@ -65,28 +62,26 @@ Three main things we have to do:
     2. Filling (also called imputing) or disregarding missing values
     3. Converting non-numerical values to numerical values (also called feature encoding)
 
-
-
 # 2. Choosing the right Estimator/ algorithm for your problem
 
 some things to note:
 
-* Sklearn refer to machine learning models, algorithm as estimators
-* `classification problem` - predicting a category (heart disease or not)
-	* Something you'will see `clf` (classifier) used as a classification estimator
- * `Regression problem` - predicting a number (selling price of a car)
+- Sklearn refer to machine learning models, algorithm as estimators
+- `classification problem` - predicting a category (heart disease or not)
+  - Something you'will see `clf` (classifier) used as a classification estimator
+- `Regression problem` - predicting a number (selling price of a car)
 
-* Step 1 - Check the sklearn machine learning map... https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
-
+- Step 1 - Check the sklearn machine learning map... https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 
 # 3. Fit the model / algorithm on our data and use it to make predictions
 
 ### 3.1 Fitting the model to the data
 
 Different names for:
-* `X` = features, features variables, data
-* `y` = labels, targets, target variables](<3. Fit the model to data and using it to make predictions
-Now you've chosen a model, the next step is to have it learn from the data so it can be used for predictions in the future.
+
+- `X` = features, features variables, data
+- `y` = labels, targets, target variables](<3. Fit the model to data and using it to make predictions
+  Now you've chosen a model, the next step is to have it learn from the data so it can be used for predictions in the future.
 
 If you've followed through, you've seen a few examples of this already.
 
@@ -178,8 +173,8 @@ Scikit-Learn enables this in several ways. Two of the most common and useful are
 
 Let's see them in action.
 
-
 # Use a trained model to make predictions
+
 ```py
 clf.predict(X_test)
 ```
@@ -189,7 +184,6 @@ array([0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0,
        1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1,
        1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0])
 ```
-
 
 Given data in the form of `X`, the `predict()` function returns labels in the form of `y`.
 
@@ -258,7 +252,7 @@ Out[17]:
 ![[Pasted image 20230521195131.png]]
 
 ![[Pasted image 20230521195102.png]]
-this is really best practice because we test data from different split 
+this is really best practice because we test data from different split
 
 ## 4.2.1 Classification model evaluation metrics
 
@@ -268,6 +262,7 @@ this is really best practice because we test data from different split
 4. Classification report
 
 ### Area under the ROC curce
+
 **Area under the reciver operation characteristic curve (AUC/ROC)**'
 
 ROC curves are a comparison of a model's true positive rate (tpr) versus a models false positive rate (fpr).
@@ -276,10 +271,10 @@ ROC curves are a comparison of a model's true positive rate (tpr) versus a model
 
 `fpr`=false positive rate = model predicts 1 when truth is 0
 
-* `True positive` = model predicts 1 when truth is 1
-* `False positive` = model predicts 1 when truth is 0
-* `True negative` = model predicts 0 when truth is 0
-* `False negative` = model predicts 0 when truth is 1
+- `True positive` = model predicts 1 when truth is 1
+- `False positive` = model predicts 1 when truth is 0
+- `True negative` = model predicts 0 when truth is 0
+- `False negative` = model predicts 0 when truth is 1
 
 ### Reading Extension: ROC Curve + AUC
 
@@ -287,28 +282,24 @@ When you first encounter them, ROC Curve and AUC (area under curve) metrics can
 
 In a nutshell, what you should remember is:
 
--   `ROC` curves and `AUC` metrics are evaluation metrics for binary classification models (a model which predicts one thing or another, such as heart disease or not).
-    
--   The `ROC` curve compares the true positive rate (tpr) versus the false positive rate (fpr) at different classification thresholds.
-    
--   The `AUC` metric tells you how well your model is at choosing between classes (for example, how well it is at deciding whether someone has heart disease or not). A perfect model will get an AUC score of 1.
-    
+- `ROC` curves and `AUC` metrics are evaluation metrics for binary classification models (a model which predicts one thing or another, such as heart disease or not).
+- The `ROC` curve compares the true positive rate (tpr) versus the false positive rate (fpr) at different classification thresholds.
+- The `AUC` metric tells you how well your model is at choosing between classes (for example, how well it is at deciding whether someone has heart disease or not). A perfect model will get an AUC score of 1.
 
 For more information on these metrics, bookmark the following resources and refer to them when you need:
 
--   [ROC and AUC, Clearly Explained!](https://www.youtube.com/watch?v=4jRBRDbJemM) by StatQuest
-    
--   [ROC documentation in Scikit-Learn](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html) (contains code examples)
-    
--   [How the ROC curve and AUC are calculated](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) by Google's Machine Learning team
+- [ROC and AUC, Clearly Explained!](https://www.youtube.com/watch?v=4jRBRDbJemM) by StatQuest
+- [ROC documentation in Scikit-Learn](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html) (contains code examples)
+- [How the ROC curve and AUC are calculated](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) by Google's Machine Learning team
 
 **Confusion matrix**
 
-A Confusion matrix is a quick way to compare the labels  predicts by the model with the actual labels it was supposed to predict.
+A Confusion matrix is a quick way to compare the labels predicts by the model with the actual labels it was supposed to predict.
 
 In essence, giving you an idea of where the model is getting confused.
 
 ![[sklearn-confusion-matrix-anatomy.png]]
+
 ### Classification model evaluation metrics
 
 1. R^2 (pronounced r-squared) or coefficient of determination
@@ -316,6 +307,7 @@ In essence, giving you an idea of where the model is getting confused.
 2. Mean absolute error (MAE)
 
 3. Mean squared error (MSE)
+
 ```py
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier
@@ -346,7 +338,7 @@ print(f"Recall:{recall_score(y_test,y_preds)*100:.2f}%")
 
 print(f"F1:{f1_score(y_test,y_preds)*100:.2f}%")
 
-#Result 
+#Result
 
 Classifier metric on the test set Accuracy:85.25%
 Precision:84.85%
@@ -355,6 +347,7 @@ F1:86.15%
 ```
 
 ## Regression model evaluation metrics
+
 ```py
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
@@ -386,7 +379,7 @@ print(f"mean absolute error:{mean_absolute_error(y_test,y_preds)*100:.2f}")
 print(f"mean squared error:{mean_squared_error(y_test,y_preds)*100:.2f}")
 print(f"r2 score:{r2_score(y_test,y_preds)*100:.2f}")
 
-#Result 
+#Result
 mean absolute error:32.66
 mean squared error:25.34
 r2 score:80.66
@@ -394,25 +387,22 @@ r2 score:80.66
 
 MAE- the average of the absolute differences between predictions and actual values. It gives you an idea of how wrong your model predictions are.
 
-  
-
 MSE- the squred average of the difference between the predictions and actual values. Squaring the errors removes negative errors. It gives you a rough idea of how far your predictions are from the actual values.
-
-
 
 ## 5. Imporving a model
 
 first predictions = baseline predictions
 first model = baseline model
 
-
 From a data Perspective:
-* Could we collect more data? (generally, the more data, the better)
-* Could we improve our data?
+
+- Could we collect more data? (generally, the more data, the better)
+- Could we improve our data?
 
 From a model perspective:
-* Is there a better model we could use?
-* Could we improve the current model?
+
+- Is there a better model we could use?
+- Could we improve the current model?
 
 Hyperparameters vs. Parameters
 
