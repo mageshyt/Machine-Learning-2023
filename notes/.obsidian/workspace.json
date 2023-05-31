@@ -32,9 +32,55 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "de8c26588f27c1b8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Feature Engineering.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "21519967397ffa38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scikit Learn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b52fb0fd45c0ed51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d644842c2397e66e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -108,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scikit Learn.md",
+                "file": "Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scikit Learn.md",
+                "file": "Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scikit Learn.md"
+                "file": "Supervised Learning.md"
               }
             }
           },
@@ -187,25 +233,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97a66d3270e3cdfd",
+  "active": "eddd681e8200f583",
   "lastOpenFiles": [
-    "Scikit Learn.pdf",
+    "images/Pasted image 20230531165303.png",
+    "Supervised Learning.md",
+    "Correlation.md",
     "Scikit Learn.md",
-    "Machine learning 101.md",
-    "Excalidraw/machine learning notes.md",
     "ML & Datascience.md",
+    "Machine learning 101.md",
+    "Feature Engineering.md",
+    "guides/content/editing-an-existing-page.md",
+    "guides/content",
+    "guides",
+    "images/standaridization Vs Normalization.png",
+    "images/stand formual.png",
+    "images/Pasted image 20230531111527.png",
+    "Excalidraw/machine learning notes.md",
+    "images/Standardization.png",
+    "images/Normalization.png",
+    "images/Pasted image 20230531101607.png",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
+    "Scikit Learn.pdf",
+    "images/Pasted image 20230529114516.png",
     "images/sklearn-confusion-matrix-anatomy.png",
     "images/sklearn-classification-report.png",
     "images/sklearn-cross-validation.png",
-    "images/sklearn-cross-validation 1.png",
-    "images/sklearn-docstring.png",
     "images/sklearn-cross-validation.png\".md",
-    "images/sklearn-hyperparameter-tuning-oven.png",
-    "images/sklearn-ml-map.png",
-    "images/sklearn-ml-map-cheatsheet-boston-housing-ensemble.png",
-    "images/sklearn-ml-map-cheatsheet-boston-housing-ridge.png",
-    "images/sklearn-ml-map-cheatsheet-heart-disease-ensemble.png",
-    "Untitled.canvas",
     "Excalidraw",
     "2023-05-21.md",
     "Untitled 1.canvas",

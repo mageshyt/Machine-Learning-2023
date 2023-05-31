@@ -421,3 +421,230 @@ Three ways to adjust `hyperparameters`:
 ![[sklearn-train-valid-test-annotated.png]]
 
 ![[Pasted image 20230523111733.png]]
+
+### 5.1 Tuning hyperparameters by hand
+
+We're going to try and adjust:
+* `max_depth`
+* `max_features`
+* `min_samples_leaf`
+* `min_samples_split`
+* `n_estimators`
+```py
+def evaluate_preds(y_true,y_preds):
+    """
+    Performs evaluation comparison on y_true labels vs y_pred labels
+    """
+
+    accuracy=accuracy_score(y_true,y_preds)
+    precision=precision_score(y_true,y_preds)
+    recall=recall_score(y_true,y_preds)
+    f1=f1_score(y_true,y_preds)
+    metric_dict={"accuracy":round(accuracy,2),
+                 "precision":round(precision,2),
+                 "recall":round(recall,2),
+                 "f1":round(f1,2)}
+
+    print(f"Acc:{accuracy*100:.2f} %")
+    print(f"Precision:{precision* 100:.2f} %")
+    print(f"Recall:{recall* 100:.2f} %")
+    print(f"F1:{f1*100:.2f} %")
+
+    return metric_dict
+```
+
+
+```py
+from sklearn.ensemble import RandomForestClassifier
+
+np.random.seed(42)
+
+# shuffle the data
+
+heart_disease_shuffled=heart_disease.sample(frac=1)
+
+# split into x/y
+
+x=heart_disease_shuffled.drop("target",axis=1)
+
+y=heart_disease_shuffled["target"]
+
+
+# split into train/test/validation
+
+train_split=round(0.7*len(heart_disease_shuffled)) # 70% of data for training
+valid_split=round(train_split+0.15*len(heart_disease_shuffled)) # 15% of data for validation
+# 70% + 15% = 85% of data for training and validation
+x_train,y_train=x[:train_split],y[:train_split] # from 0 to train_split
+ 
+x_valid,y_valid=x[train_split:valid_split],y[train_split:valid_split] # from train_split to valid_split
+
+x_test,y_test=x[valid_split:],y[valid_split:] # from valid_split to end
+
+len(x_train),len(x_valid),len(x_test)
+
+clf=RandomForestClassifier()
+
+clf.fit(x_train,y_train)
+
+# make baseline predictions
+y_preds=clf.predict(x_valid)
+
+# evaluate the classifier on validation set
+
+baseline_metrics=evaluate_preds(y_valid,y_preds)
+
+baseline_metrics
+
+```
+
+### 5.2 Hyperparameter tuning with RandomizedSearchCV
+
+```py
+from sklearn.model_selection import RandomizedSearchCV,train_test_split
+
+grid={"n_estimators":[10,100,200,500,1000,1200],
+        "max_depth":[None,5,10,20,30],
+        "max_features":["auto","sqrt"],
+        "min_samples_split":[2,4,6],
+        "min_samples_leaf":[1,2,4]}
+np.random.seed(42)
+
+np.random.seed(42)
+
+# shuffle the data
+
+heart_disease_shuffled = heart_disease.sample(frac=1)
+
+# split into x/y
+
+x = heart_disease_shuffled.drop("target", axis=1)
+
+y = heart_disease_shuffled["target"]
+
+# split into train/test/
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=.2)
+clf = RandomForestClassifier(n_jobs=1)
+
+# setup RandomizedSearchCV
+
+rs_clf = RandomizedSearchCV(estimator=clf,
+                                param_distributions=grid, # what we created above
+                                n_iter=5, # number of models to try
+                                cv=5, # cross validation
+                                verbose=2 # print out results
+                                )
+
+# fit the RandomizedSearchCV version of clf
+
+rs_clf.fit(x_train, y_train) # it will make validation set automatically
+
+# find the best parameters
+
+rs_clf.best_params_
+
+```
+
+### 5.3 Hyperparameter tuning with GridSearchCV
+
+```py
+from sklearn.model_selection import GridSearchCV
+
+grid_2 = {"n_estimators": [100, 200, 500],
+            "max_depth": [None],
+            "max_features": ["auto", "sqrt"],
+            "min_samples_split": [6],
+            "min_samples_leaf": [1, 2]}
+np.random.seed(42)
+
+# shuffle the data
+
+heart_disease_shuffled = heart_disease.sample(frac=1)
+
+# split into x/y 
+
+x = heart_disease_shuffled.drop("target", axis=1)
+
+y = heart_disease_shuffled["target"]
+
+# split into train/test/
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=.2)
+
+clf = RandomForestClassifier(n_jobs=1)
+
+# setup GridSearchCV
+
+gs_clf = GridSearchCV(estimator=clf,
+                        param_grid=grid_2, # what we created above
+                        cv=5, # cross validation
+                        verbose=2 # print out results
+                        )
+
+# fit the GridSearchCV version of clf
+
+gs_clf.fit(x_train, y_train) # it will make validation set automatically
+
+# find the best parameters
+
+gs_clf.best_params_
+
+# evaluate the randomized search RandomForestClassifier model
+
+gs_y_preds = gs_clf.predict(x_test)
+
+# evaluate the predictions
+
+gs_metrics = evaluate_preds(y_test, gs_y_preds)
+
+gs_metrics
+
+# compare the different models metrics
+
+compare_metrics = pd.DataFrame({"baseline": baseline_metrics,
+                                
+                                "random search": rs_metrics,
+
+                                "grid search": gs_metrics})
+
+compare_metrics.plot.bar(figsize=(10, 8));
+```
+
+
+# compare the different models metrics
+![[Pasted image 20230529114516.png]]
+
+
+## 6 . Saving and loading trained machine learning models
+
+Two ways to save and load machine learning models:
+
+1. With Python's `pickle` module
+2. With the `joblib` module
+
+
+```py
+# 6. Saving and loading trained machine learning models
+
+import pickle
+
+# save an existing model to file
+
+pickle.dump(gs_clf, open("gs_random_forest_model_1.pkl", "wb"))
+
+# load a saved model
+
+loaded_pickle_model = pickle.load(open("gs_random_forest_model_1.pkl", "rb"))
+
+# make some predictions
+["hear disease " if i ==1 else "not Heart Disease" for i in loaded_pickle_model.predict(x_test)]
+
+
+# make some predictions
+
+pickle_y_preds = loaded_pickle_model.predict(x_test)
+
+evaluate_preds(y_test, pickle_y_preds)
+
+```
