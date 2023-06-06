@@ -57,7 +57,8 @@ random forest, and XG-Boost.
 
 **Video Links :**
 
-1.[standaridization Vs Normalization](https://www.youtube.com/watch?v=bqhQ2LWBheQ)
-2.[Z-Scores, Standardization, and the Standard Normal Distribution](https://www.youtube.com/watch?v=2tuBREK_mgE)
+![standaridization Vs Normalization](https://www.youtube.com/watch?v=bqhQ2LWBheQ)
+
+![Z-Scores, Standardization, and the Standard Normal Distribution](https://www.youtube.com/watch?v=2tuBREK_mgE)
 
 

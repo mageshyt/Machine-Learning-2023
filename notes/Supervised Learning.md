@@ -36,3 +36,44 @@ Let see the below example to make it a better understanding
 
 reference : [k-nearest](https://medium.com/swlh/k-nearest-neighbor-ca2593d7a3c4)
 
+ ## Logistic Regression Hyperparameters
+
+The main hyperparameters we may tune in logistic regression are: solver, penalty, and regularization strength ([sklearn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)).
+
+**Solver** is the algorithm to use in the optimization problem. The choices are _{‘newton-cg’, ‘lbfgs’, ‘liblinear’, ‘sag’, ‘saga’}_, default=’lbfgs’.
+
+1. `lbfgs` relatively performs well compared to other methods and it saves a lot of memory, however, sometimes it may have issues with convergence.
+2. `sag` faster than other solvers for large datasets, when both the number of samples and the number of features are large.
+3. `saga` the solver of choice for sparse multinomial logistic regression and it’s also suitable for very large datasets.
+4. `newton-cg` computationally expensive because of the Hessian Matrix.
+5. `liblinear`recommended when you have a high dimension dataset - solving large-scale classification problems.
+
+
+reference : [Logistic Hyperparameter](https://medium.com/codex/do-i-need-to-tune-logistic-regression-hyperparameters-1cb2b81fca69)
+
+# Classification Reposrt
+
+
+`Precision` — _What percent of your predictions were correct?_
+
+Precision is the ability of a classifier not to label an instance positive that is actually negative. For each class, it is defined as the ratio of true positives to the sum of a true positive and false positive.
+
+Precision:- Accuracy of positive predictions.
+
+Precision = TP/(TP + FP)
+
+`Recall` — _What percent of the positive cases did you catch?_
+
+Recall is the ability of a classifier to find all positive instances. For each class it is defined as the ratio of true positives to the sum of true positives and false negatives.
+
+Recall:- **Fraction of positives that were correctly identified**.
+
+Recall = TP/(TP+FN)
+
+`F1 score` —**_What percent of positive predictions were correct?_**
+
+The F1 score is a weighted harmonic mean of precision and recall such that the best score is 1.0 and the worst is 0.0. F1 scores are lower than accuracy measures as they embed precision and recall into their computation. As a rule of thumb, the weighted average of F1 should be used to compare classifier models, not global accuracy.
+
+F1 Score = 2*(Recall * Precision) / (Recall + Precision)
+reference : [classification Report](https://medium.com/@kohlishivam5522/understanding-a-classification-report-for-your-machine-learning-model-88815e2ce397)
+

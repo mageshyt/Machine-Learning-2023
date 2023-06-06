@@ -20,20 +20,6 @@
             }
           },
           {
-            "id": "97a66d3270e3cdfd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scikit Learn.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "de8c26588f27c1b8",
             "type": "leaf",
             "pinned": true,
@@ -72,6 +58,16 @@
             }
           },
           {
+            "id": "7729aa2623eaf9f8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
+          },
+          {
             "id": "d644842c2397e66e",
             "type": "leaf",
             "state": {
@@ -80,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,22 +229,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eddd681e8200f583",
+  "active": "b52fb0fd45c0ed51",
   "lastOpenFiles": [
+    "Excalidraw/machine learning notes.md",
+    "Feature Engineering.md",
+    "Scikit Learn.md",
     "images/Pasted image 20230531165303.png",
     "Supervised Learning.md",
     "Correlation.md",
-    "Scikit Learn.md",
     "ML & Datascience.md",
     "Machine learning 101.md",
-    "Feature Engineering.md",
     "guides/content/editing-an-existing-page.md",
     "guides/content",
     "guides",
     "images/standaridization Vs Normalization.png",
     "images/stand formual.png",
     "images/Pasted image 20230531111527.png",
-    "Excalidraw/machine learning notes.md",
     "images/Standardization.png",
     "images/Normalization.png",
     "images/Pasted image 20230531101607.png",
@@ -258,7 +254,6 @@
     "images/Pasted image 20230529114516.png",
     "images/sklearn-confusion-matrix-anatomy.png",
     "images/sklearn-classification-report.png",
-    "images/sklearn-cross-validation.png",
     "images/sklearn-cross-validation.png\".md",
     "Excalidraw",
     "2023-05-21.md",
