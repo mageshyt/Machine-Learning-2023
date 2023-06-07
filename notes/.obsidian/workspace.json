@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "de8c26588f27c1b8",
+            "id": "496ce76250468423",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature Engineering.md",
+                "file": "Data Engineering.md",
                 "mode": "source",
                 "source": false
               },
@@ -34,7 +34,17 @@
             }
           },
           {
-            "id": "21519967397ffa38",
+            "id": "2c214a1b19facfb7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Data Eng -2.png"
+              }
+            }
+          },
+          {
+            "id": "fc6d3c2c5ef99c02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,37 +56,19 @@
             }
           },
           {
-            "id": "b52fb0fd45c0ed51",
+            "id": "4e45d780c3b5d67d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning.md",
+                "file": "Machine learning 101.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "7729aa2623eaf9f8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.5"
-              }
-            }
-          },
-          {
-            "id": "d644842c2397e66e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -150,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supervised Learning.md",
+                "file": "Data Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Supervised Learning.md",
+                "file": "Data Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Supervised Learning.md"
+                "file": "Data Engineering.md"
               }
             }
           },
@@ -215,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,16 +223,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b52fb0fd45c0ed51",
+  "active": "496ce76250468423",
   "lastOpenFiles": [
-    "Excalidraw/machine learning notes.md",
-    "Feature Engineering.md",
+    "Machine learning 101.md",
+    "ML & Datascience.md",
+    "Data Engineering.md",
     "Scikit Learn.md",
-    "images/Pasted image 20230531165303.png",
     "Supervised Learning.md",
     "Correlation.md",
-    "ML & Datascience.md",
-    "Machine learning 101.md",
+    "Feature Engineering.md",
+    "Pasted image 20230607085819.png.md",
+    "Scikit Learn.pdf",
+    "Excalidraw/machine learning notes.md",
+    "images/Data Eng -2.png",
+    "images/pipeline.png",
+    "Pasted image 20230607085819.png",
+    "Pasted image 20230607085805.png",
+    "SCR-20230607.png",
+    "images/Pasted image 20230531165303.png",
     "guides/content/editing-an-existing-page.md",
     "guides/content",
     "guides",
@@ -246,14 +248,8 @@
     "images/stand formual.png",
     "images/Pasted image 20230531111527.png",
     "images/Standardization.png",
-    "images/Normalization.png",
-    "images/Pasted image 20230531101607.png",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
-    "Scikit Learn.pdf",
-    "images/Pasted image 20230529114516.png",
-    "images/sklearn-confusion-matrix-anatomy.png",
-    "images/sklearn-classification-report.png",
     "images/sklearn-cross-validation.png\".md",
     "Excalidraw",
     "2023-05-21.md",
