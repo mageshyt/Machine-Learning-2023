@@ -72,6 +72,9 @@ Once you’ve got a trained algorithm, you could pass through the medical record
 The algorithm says, “based on what I’ve seen before, it looks like this new patients medical records are 70% aligned to those who have heart disease.”
 ![[Pasted image 20230511113807.png]]
 ### Unsupervised learning
+
+**The system tries to learn without a teacher**
+
 Unsupervised learning is when you have data but no labels. The data could be the purchase history of your online video game store customers. Using this data, you may want to group similar customers together so you can offer them specialised deals. You could use a machine learning algorithm to group your customers by purchase history.
 
 After inspecting the groups, you provide the labels. There may be a group interested in computer games, another group who prefer console games and another which only buy discounted older games. This is called clustering.
