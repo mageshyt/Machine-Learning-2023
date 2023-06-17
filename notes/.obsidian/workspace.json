@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5445b1095eae1897",
+        "id": "9639216d8fbf28a1",
         "type": "tabs",
         "children": [
           {
-            "id": "43c5bb82f5419a25",
+            "id": "5ad7da5c2b1ae254",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-06-15.md",
+                "file": "Deep learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-06-15.md",
+                "file": "Deep learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-06-15.md",
+                "file": "Deep learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-06-15.md"
+                "file": "Deep learning.md"
               }
             }
           },
@@ -173,14 +173,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43c5bb82f5419a25",
+  "active": "5ad7da5c2b1ae254",
   "lastOpenFiles": [
+    "Deep learning.md",
     "images/pipeline.png",
     "images/Data Eng -2.png",
     "SCR-20230607.png",
     "Pasted image 20230607085819.png.md",
     "Data Engineering.md",
-    "2023-06-15.md",
     "Deep Learning.md",
     "Deep Learning 101.md",
     "Untitled",
