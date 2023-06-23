@@ -169,7 +169,7 @@ Other things you should take into consideration for classification problems.
 - **True negatives** — Model predicts negative, actually negative. This is good.
 - **True positives** — Model predicts positive, actually positive. This is good.
 - **Precision** — What proportion of positive predictions were actually correct? A model that produces no false positives has a precision of 1.0.
-- **Recall** — What proportion of actual positives were predicted correctly? A model that produces no false negatives has a recall of 1.0.
+- **Recall** — What proportion of actual positives were predicted correctly ? A model that produces no false negatives has a recall of 1.0.
 - **F1 score** — A combination of precision and recall. The closer to 1.0, the better.
 - **Receiver operating characteristic (ROC) curve & Area under the curve (AUC)** — The ROC curve is a plot comparing true positive and false positive rate. The AUC metric is the area under the ROC curve. A model whose predictions are 100% wrong has an AUC of 0.0, one whose predictions are 100% right has an AUC of 1.0.
 

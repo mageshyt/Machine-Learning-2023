@@ -10,6 +10,18 @@
           {
             "id": "5ad7da5c2b1ae254",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3917dc96a457dda4",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "recal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 247.5110321044922
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -173,25 +186,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ad7da5c2b1ae254",
+  "active": "3917dc96a457dda4",
   "lastOpenFiles": [
+    "Untitled.md",
     "Deep learning.md",
+    "Scikit Learn.md",
+    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "ML & Datascience.pdf",
+    "ML & Datascience.md",
+    "Feature Engineering.md",
+    "Data Engineering.md",
     "images/pipeline.png",
     "images/Data Eng -2.png",
     "SCR-20230607.png",
     "Pasted image 20230607085819.png.md",
-    "Data Engineering.md",
     "Deep Learning.md",
     "Deep Learning 101.md",
     "Untitled",
-    "ML & Datascience.md",
-    "Feature Engineering.md",
     "Supervised Learning.md",
     "Machine learning 101.md",
-    "Scikit Learn.md",
     "Scikit Learn.pdf",
     "Correlation.md",
-    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
     "Excalidraw/machine learning notes.md",
     "Books",
     "Bookd",
@@ -219,7 +234,6 @@
     "notes.md",
     "Nerver note.md",
     "2022-12-06.md",
-    "Readme.pdf",
     "session 9 Rxjs/Rxjs/Readme.md",
     "session 4 component Fudamentals/Readme.md"
   ]
