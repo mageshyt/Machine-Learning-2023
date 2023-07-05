@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep learning.md",
+                "file": "8.Deep learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f1e254cbf9f5b50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8.Deep learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,25 +199,25 @@
   },
   "active": "5ad7da5c2b1ae254",
   "lastOpenFiles": [
-    "Deep learning.md",
-    "Untitled.md",
-    "Scikit Learn.md",
-    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "8.Deep learning.md",
+    "7.Supervised Learning.md",
+    "SCR-20230607.png",
+    "6.Scikit Learn.md",
+    "5.Correlation.md",
+    "4.Feature Engineering.md",
+    "3.Data Engineering.md",
+    "2.ML & Datascience.md",
     "ML & Datascience.pdf",
-    "ML & Datascience.md",
-    "Feature Engineering.md",
-    "Data Engineering.md",
+    "1.Machine learning 101.md",
+    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "Untitled.md",
     "images/pipeline.png",
     "images/Data Eng -2.png",
-    "SCR-20230607.png",
     "Pasted image 20230607085819.png.md",
     "Deep Learning.md",
     "Deep Learning 101.md",
     "Untitled",
-    "Supervised Learning.md",
-    "Machine learning 101.md",
     "Scikit Learn.pdf",
-    "Correlation.md",
     "Excalidraw/machine learning notes.md",
     "Books",
     "Bookd",
@@ -233,7 +245,6 @@
     "notes.md",
     "Nerver note.md",
     "2022-12-06.md",
-    "session 9 Rxjs/Rxjs/Readme.md",
-    "session 4 component Fudamentals/Readme.md"
+    "session 9 Rxjs/Rxjs/Readme.md"
   ]
 }
