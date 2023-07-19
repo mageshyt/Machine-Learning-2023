@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Feature Engineering.md",
+                "file": "10. Tensorflow Classfication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "479544f2cf9b2e6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9.Tensorflow Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5110321044922
+    "width": 247.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.Feature Engineering.md",
+                "file": "10. Tensorflow Classfication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.Feature Engineering.md",
+                "file": "10. Tensorflow Classfication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.Feature Engineering.md"
+                "file": "10. Tensorflow Classfication.md"
               }
             }
           },
@@ -186,31 +199,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c11765deda94185b",
+  "active": "eddd681e8200f583",
   "lastOpenFiles": [
+    "Pasted image 20230719131120.png",
+    "Pasted image 20230719131032.png",
+    "Scikit Learn.pdf",
+    "10. Tensorflow Classfication.md",
+    "SCR-20230607.png",
+    "images/Pasted image 20230719130938.png",
+    "9.Tensorflow Regression.md",
+    "2.ML & Datascience.md",
+    "1.Machine learning 101.md",
+    "4.Feature Engineering.md",
     "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
     "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
     "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.png",
-    "9.Tensorflow Regression.md",
-    "Pasted image 20230708192508.png",
+    "images/Pasted image 20230708192508.png",
     "guides/content/editing-an-existing-page.md",
     "8.Deep learning.md",
     "7.Supervised Learning.md",
-    "SCR-20230607.png",
     "6.Scikit Learn.md",
     "5.Correlation.md",
-    "4.Feature Engineering.md",
     "3.Data Engineering.md",
-    "2.ML & Datascience.md",
     "ML & Datascience.pdf",
-    "1.Machine learning 101.md",
     "images/pipeline.png",
     "images/Data Eng -2.png",
     "images/Pasted image 20230607085819.png.md",
     "Deep Learning.md",
     "Deep Learning 101.md",
     "Untitled",
-    "Scikit Learn.pdf",
     "Excalidraw/machine learning notes.md",
     "Books",
     "Bookd",
@@ -219,8 +236,6 @@
     "images/Pasted image 20230531165303.png",
     "guides/content",
     "guides",
-    "images/standaridization Vs Normalization.png",
-    "images/stand formual.png",
     "Untitled.canvas",
     "images/sklearn-cross-validation.png\".md",
     "Excalidraw",
@@ -233,7 +248,6 @@
     "setter and getters function.md",
     "notes.md",
     "Nerver note.md",
-    "2022-12-06.md",
-    "session 9 Rxjs/Rxjs/Readme.md"
+    "2022-12-06.md"
   ]
 }
