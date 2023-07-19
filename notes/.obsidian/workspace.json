@@ -20,12 +20,14 @@
             }
           },
           {
-            "id": "6afd70f8f07938f3",
+            "id": "c11765deda94185b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf"
+                "file": "4.Feature Engineering.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+                "file": "4.Feature Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+                "file": "4.Feature Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf"
+                "file": "4.Feature Engineering.md"
               }
             }
           },
@@ -184,10 +186,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6afd70f8f07938f3",
+  "active": "c11765deda94185b",
   "lastOpenFiles": [
-    "9.Tensorflow Regression.md",
     "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.png",
+    "9.Tensorflow Regression.md",
     "Pasted image 20230708192508.png",
     "guides/content/editing-an-existing-page.md",
     "8.Deep learning.md",
@@ -217,9 +221,7 @@
     "guides",
     "images/standaridization Vs Normalization.png",
     "images/stand formual.png",
-    "images/Pasted image 20230531111527.png",
     "Untitled.canvas",
-    "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
     "images/sklearn-cross-validation.png\".md",
     "Excalidraw",
     "2023-05-21.md",
