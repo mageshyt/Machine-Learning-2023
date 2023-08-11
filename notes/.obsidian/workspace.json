@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.ML & Datascience.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "479544f2cf9b2e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9.Tensorflow Regression.md",
+                "file": "10. Tensorflow Classfication.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,17 +42,17 @@
             }
           },
           {
-            "id": "243a77aa470e95b3",
+            "id": "18f2de189ef35464",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "release-notes",
               "state": {
-                "file": "Excalidraw/machine learning notes.md"
+                "currentVersion": "1.3.7"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5110321044922,
-    "collapsed": true
+    "width": 247.5110321044922
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -139,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/machine learning notes.md",
+                "file": "10. Tensorflow Classfication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/machine learning notes.md",
+                "file": "10. Tensorflow Classfication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/machine learning notes.md"
+                "file": "10. Tensorflow Classfication.md"
               }
             }
           },
@@ -219,43 +206,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "243a77aa470e95b3",
+  "active": "c11765deda94185b",
   "lastOpenFiles": [
+    "Pasted image 20230811211404.png",
+    "Pasted image 20230811210321.png",
+    "2.ML & Datascience.md",
+    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "Books/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf",
+    "Excalidraw/machine learning notes.md",
+    "images/Pasted image 20230719131032.png",
+    "images/Pasted Image 20230731213054_712.png",
+    "images/Pasted Image 20230731213023_687.png",
+    "images/Pasted image 20230719131120.png",
+    "10. Tensorflow Classfication.md",
+    "images/Pasted image 20230811210011.png",
+    "9.Tensorflow Regression.md",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Pasted Image 20230731213054_712.png",
-    "Pasted Image 20230731213023_687.png",
-    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
-    "Books/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf",
-    "2.ML & Datascience.md",
     "1.Machine learning 101.md",
     "5.Correlation.md",
     "4.Feature Engineering.md",
     "3.Data Engineering.md",
-    "10. Tensorflow Classfication.md",
-    "Pasted image 20230719131120.png",
-    "Pasted image 20230719131032.png",
     "Scikit Learn.pdf",
     "SCR-20230607.png",
     "images/Pasted image 20230719130938.png",
-    "9.Tensorflow Regression.md",
     "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
     "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.png",
-    "images/Pasted image 20230708192508.png",
     "guides/content/editing-an-existing-page.md",
     "8.Deep learning.md",
     "7.Supervised Learning.md",
     "6.Scikit Learn.md",
     "ML & Datascience.pdf",
-    "images/pipeline.png",
-    "images/Data Eng -2.png",
     "images/Pasted image 20230607085819.png.md",
     "Deep Learning.md",
     "Deep Learning 101.md",
     "Untitled",
-    "Excalidraw/machine learning notes.md",
     "Books",
     "Bookd",
     "guides/content",
