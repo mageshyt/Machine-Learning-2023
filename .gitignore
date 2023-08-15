@@ -9,7 +9,6 @@ notes/.DS_Store
 .gitignore
 
 Data Analysis & Visualization/data/crime.csv
-
 Data Analysis & Visualization/data/pollution.csv
-Data Analysis & Visualization/data/
+Data Analysis & Visualization/data/nuforc_reports.csv
 Data Analysis & Visualization/data/denver_crime.csv
