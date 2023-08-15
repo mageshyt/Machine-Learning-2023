@@ -25,8 +25,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10. Tensorflow Classfication.md",
-                "mode": "preview",
+                "file": "Data Analysis & Visualization/01 Data Frames Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9369f13d5d73a8f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recal",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10. Tensorflow Classfication.md",
+                "file": "Data Analysis & Visualization/01 Data Frames Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10. Tensorflow Classfication.md",
+                "file": "Data Analysis & Visualization/01 Data Frames Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10. Tensorflow Classfication.md"
+                "file": "Data Analysis & Visualization/01 Data Frames Intro.md"
               }
             }
           },
@@ -188,11 +200,20 @@
   },
   "active": "c11765deda94185b",
   "lastOpenFiles": [
+    "images/Pasted image 20230815123115.png",
+    "Machine Learning & Deep leraning/9.Tensorflow Regression.md",
+    "images/dataset.png",
+    "Data Analysis & Visualization/01 Data Frames Intro.md",
+    "images/Pasted image 20230811210321.png",
+    "Data Analysis & Visualization",
+    "ML & Datascience.pdf",
+    "images/Pasted image 20230811211404.png",
+    "Machine Learning & Deep leraning/8.Deep learning.md",
+    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+    "Machine Learning & Deep leraning/2.ML & Datascience.md",
+    "Machine Learning & Deep leraning",
+    "Machine Learning & Deep leraning/7.Supervised Learning.md",
     "Books/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf",
-    "10. Tensorflow Classfication.md",
-    "Pasted image 20230811211404.png",
-    "Pasted image 20230811210321.png",
-    "2.ML & Datascience.md",
     "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
     "Excalidraw/machine learning notes.md",
     "images/Pasted image 20230719131032.png",
@@ -200,31 +221,24 @@
     "images/Pasted Image 20230731213023_687.png",
     "images/Pasted image 20230719131120.png",
     "images/Pasted image 20230811210011.png",
-    "9.Tensorflow Regression.md",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "1.Machine learning 101.md",
-    "5.Correlation.md",
-    "4.Feature Engineering.md",
-    "3.Data Engineering.md",
+    "Machine Learning & Deep leraning/1.Machine learning 101.md",
+    "Machine Learning & Deep leraning/5.Correlation.md",
+    "Machine Learning & Deep leraning/4.Feature Engineering.md",
+    "Machine Learning & Deep leraning/3.Data Engineering.md",
     "Scikit Learn.pdf",
     "SCR-20230607.png",
-    "images/Pasted image 20230719130938.png",
     "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
     "guides/content/editing-an-existing-page.md",
-    "8.Deep learning.md",
-    "7.Supervised Learning.md",
-    "6.Scikit Learn.md",
-    "ML & Datascience.pdf",
+    "Machine Learning & Deep leraning/6.Scikit Learn.md",
     "images/Pasted image 20230607085819.png.md",
     "Deep Learning.md",
     "Deep Learning 101.md",
-    "Untitled",
     "Books",
     "Bookd",
-    "guides/content",
     "Untitled.canvas",
     "images/sklearn-cross-validation.png\".md",
     "2023-05-21.md",
@@ -233,7 +247,6 @@
     "ML and Data scine FrameWork.md",
     "2023-05-11.md",
     "setter and getters function.md",
-    "notes.md",
-    "Nerver note.md"
+    "notes.md"
   ]
 }
