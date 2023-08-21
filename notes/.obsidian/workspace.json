@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "c11765deda94185b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Analysis & Visualization/01 Data Frames Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9369f13d5d73a8f7",
             "type": "leaf",
             "state": {
@@ -102,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5110321044922
+    "width": 247.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -118,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Analysis & Visualization/01 Data Frames Intro.md",
+                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Analysis & Visualization/01 Data Frames Intro.md",
+                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Analysis & Visualization/01 Data Frames Intro.md"
+                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md"
               }
             }
           },
@@ -183,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,23 +186,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c11765deda94185b",
+  "active": "9369f13d5d73a8f7",
   "lastOpenFiles": [
+    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "Untitled.canvas",
+    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+    "Data Analysis & Visualization/01 Data Frames Intro.md",
     "images/Pasted image 20230815123115.png",
     "Machine Learning & Deep leraning/9.Tensorflow Regression.md",
     "images/dataset.png",
-    "Data Analysis & Visualization/01 Data Frames Intro.md",
     "images/Pasted image 20230811210321.png",
     "Data Analysis & Visualization",
     "ML & Datascience.pdf",
     "images/Pasted image 20230811211404.png",
     "Machine Learning & Deep leraning/8.Deep learning.md",
-    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
     "Machine Learning & Deep leraning/2.ML & Datascience.md",
     "Machine Learning & Deep leraning",
     "Machine Learning & Deep leraning/7.Supervised Learning.md",
     "Books/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf",
-    "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
     "Excalidraw/machine learning notes.md",
     "images/Pasted image 20230719131032.png",
     "images/Pasted Image 20230731213054_712.png",
@@ -230,7 +219,6 @@
     "Machine Learning & Deep leraning/4.Feature Engineering.md",
     "Machine Learning & Deep leraning/3.Data Engineering.md",
     "Scikit Learn.pdf",
-    "SCR-20230607.png",
     "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
     "guides/content/editing-an-existing-page.md",
     "Machine Learning & Deep leraning/6.Scikit Learn.md",
@@ -239,7 +227,6 @@
     "Deep Learning 101.md",
     "Books",
     "Bookd",
-    "Untitled.canvas",
     "images/sklearn-cross-validation.png\".md",
     "2023-05-21.md",
     "Untitled 1.canvas",
