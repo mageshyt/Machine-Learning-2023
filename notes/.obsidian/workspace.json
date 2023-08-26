@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5110321044922,
-    "collapsed": true
+    "width": 247.5110321044922
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning & Deep leraning/10. Tensorflow Classfication.md"
+                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md"
               }
             }
           },
@@ -188,9 +187,9 @@
   },
   "active": "9369f13d5d73a8f7",
   "lastOpenFiles": [
+    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
     "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
     "Untitled.canvas",
-    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
     "Data Analysis & Visualization/01 Data Frames Intro.md",
     "images/Pasted image 20230815123115.png",
     "Machine Learning & Deep leraning/9.Tensorflow Regression.md",
