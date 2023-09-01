@@ -20,14 +20,12 @@
             }
           },
           {
-            "id": "9369f13d5d73a8f7",
+            "id": "09ac53dcd86eb082",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/machine learning notes.md"
               }
             }
           }
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md",
+                "file": "Excalidraw/machine learning notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md",
+                "file": "Excalidraw/machine learning notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning & Deep leraning/4.Feature Engineering.md"
+                "file": "Excalidraw/machine learning notes.md"
               }
             }
           },
@@ -171,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +184,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9369f13d5d73a8f7",
+  "active": "09ac53dcd86eb082",
   "lastOpenFiles": [
-    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
+    "Excalidraw/Iss_project.excalidraw.md",
+    "Excalidraw/Iss_project.excalidraw.png",
     "Books/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.pdf",
+    "Machine Learning & Deep leraning/4.Feature Engineering.md",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.svg",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
+    "Excalidraw/Drawing 2023-05-23 14.35.56.excalidraw.png",
+    "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
+    "Machine Learning & Deep leraning/10. Tensorflow Classfication.md",
     "Untitled.canvas",
     "Data Analysis & Visualization/01 Data Frames Intro.md",
     "images/Pasted image 20230815123115.png",
@@ -206,19 +214,13 @@
     "Excalidraw/machine learning notes.md",
     "images/Pasted image 20230719131032.png",
     "images/Pasted Image 20230731213054_712.png",
-    "images/Pasted Image 20230731213023_687.png",
-    "images/Pasted image 20230719131120.png",
-    "images/Pasted image 20230811210011.png",
-    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Machine Learning & Deep leraning/1.Machine learning 101.md",
     "Machine Learning & Deep leraning/5.Correlation.md",
-    "Machine Learning & Deep leraning/4.Feature Engineering.md",
     "Machine Learning & Deep leraning/3.Data Engineering.md",
     "Scikit Learn.pdf",
-    "Excalidraw/Drawing 2023-05-31 08.54.28.excalidraw.md",
     "guides/content/editing-an-existing-page.md",
     "Machine Learning & Deep leraning/6.Scikit Learn.md",
     "images/Pasted image 20230607085819.png.md",
@@ -230,9 +232,6 @@
     "2023-05-21.md",
     "Untitled 1.canvas",
     "Section -2.md",
-    "ML and Data scine FrameWork.md",
-    "2023-05-11.md",
-    "setter and getters function.md",
-    "notes.md"
+    "ML and Data scine FrameWork.md"
   ]
 }
