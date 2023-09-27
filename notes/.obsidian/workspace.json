@@ -68,9 +68,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "906ff633482df6fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning & Deep leraning/11.Introduction to Computer Vision with TensorFlow.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -128,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5110321044922,
-    "collapsed": true
+    "width": 247.5110321044922
   },
   "right": {
     "id": "9e48a919e7a90182",
@@ -235,8 +246,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f54b5bd3ae2cdb7",
+  "active": "906ff633482df6fa",
   "lastOpenFiles": [
+    "Machine Learning & Deep leraning/12.CNN 2.md",
     "Machine Learning & Deep leraning/11.Introduction to Computer Vision with TensorFlow.md",
     "images/Pasted image 20230921210404.png",
     "images/Pasted Image 20230902205956_091.png",
